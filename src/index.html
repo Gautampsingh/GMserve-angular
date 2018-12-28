@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title id="title">Gmserve - Born to build</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/favicon1.ico">
+  <link rel="icon" type="image/x-icon" href="assets/favicon1.ico">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Custom fonts for this template -->
+	<link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- Custom styles for this template -->
+	<link href="assets/css/agency.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <app-root>
+    <div class="dizzy-gillespie"></div>
+  </app-root>
+
+  <!-- Bootstrap core JavaScript -->
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- Custom scripts for this template -->
+
+	<script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="assets/js/typed.min.js"></script>
+	<script src="assets/js/myApp.js"></script>
+	<script>
+      $(window).scroll(function(){
+        $("#mainNav").offset().top>100?$("#mainNav").addClass("navbar-shrink"):$("#mainNav").removeClass("navbar-shrink");
+      })
+
+		function sendMail() {
+			var text = 'Name: ' + document.getElementById('name').value 
+					+ '\nPhone: ' + document.getElementById('phone').value
+					+ '\nEmail: ' + document.getElementById('email').value
+					+ '\nMessage: ' + document.getElementById('message').value;
+		
+			var link = "mailto:afixi.gautam@gmail.com"
+					//+ "?cc=myCCaddress@example.com"
+					//+ "&subject=" + escape("This is my subject test")
+					+ "&body=" + escape(text);
+
+			window.location.href = link;
+			document.getElementById("form_id").submit();
+		}
+	</script>
+</body>
+</html>
