@@ -1,0 +1,24 @@
+{
+    "HOME": {
+      "TITLE": "Hello Angular with ngx-translate!",
+      "SELECT": "Change language",
+      "MENU": "Menu",
+      "SERVICES": "SERVICES",
+      "PROJECTS": "PROJECTS",
+      "ABOUTME": "ABOUT ME",
+      "TECHNOLOGY": "TECHNOLOGY",
+      "CONTACT": "CONTACT"
+    },
+    "HEADER": {
+      "TEXT1": "Welcome To my Studio!",
+      "TEXT2": "IT'S NICE TO MEET YOU",
+      "TEXT3": "TELL ME MORE"
+    },
+    "SERVICES": {
+      "TITLE": "SERVICES",
+      "TEXT1": "GMserve providing best and affordable web development services globally. We can handle all of your website needs. Help in hosting, email, domain name, secure hosting and signature hosting accounts.",
+      "TEXT2": "Web development",
+      "TEXT3": "Develop application with high quality security.Easy access and search options of the products for the customers."
+    }
+  }
+  

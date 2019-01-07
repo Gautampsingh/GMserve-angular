@@ -1,0 +1,24 @@
+{
+    "HOME": {
+      "TITLE": "Bonjour Angular avec ngx-translate !",
+      "SELECT": "Changer la langue",
+      "MENU": "Menu",
+      "SERVICES": "SERVICES",
+      "PROJECTS": "PROJETS",
+      "ABOUTME": "À PROPOS DE MOI",
+      "TECHNOLOGY": "LA TECHNOLOGIE",
+      "CONTACT": "CONTACT"
+    },
+    "HEADER": {
+      "TEXT1": "Bienvenue dans mon studio!",
+      "TEXT2": "RAVI DE VOUS RENCONTRER",
+      "TEXT3": "DIS M'EN PLUS"
+    },
+    "SERVICES": {
+      "TITLE": "SERVICES",
+      "TEXT1": "GMserve fournit les meilleurs services de développement Web abordables au monde. Nous pouvons répondre à tous les besoins de votre site Web. Aide en hébergement, courrier électronique, nom de domaine, hébergement sécurisé et comptes d'hébergement de signature.",
+      "TEXT2": "développement web",
+      "TEXT3": "Développer une application avec une sécurité de haute qualité. Accès facile et options de recherche des produits pour les clients"
+    }
+  }
+  

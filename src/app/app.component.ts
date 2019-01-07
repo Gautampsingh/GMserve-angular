@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
 declare var $: any;
 
 @Component({
@@ -8,6 +9,10 @@ declare var $: any;
 })
 export class AppComponent {
   title = 'GMserve';
+
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang('en');
+  }
 
   ngOnInit() {
     window.addEventListener('scroll', this.scroll, true);
