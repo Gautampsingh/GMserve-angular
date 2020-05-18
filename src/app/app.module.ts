@@ -17,6 +17,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { ServicesComponent } from './components/services/services.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { BreadcrumpComponent } from './components/breadcrump/breadcrump.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     ContactComponent,
     TechnologyComponent,
     ServicesComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    BreadcrumpComponent
   ],
   imports: [
     BrowserModule,

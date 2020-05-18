@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#title").typed({
-		strings: ["GMserve - Born to build"],
+		strings: ["Goutam singh - Front-end | UI developer"],
 		typeSpeed: 300,
 		backDelay: 900,
 		loop: true,

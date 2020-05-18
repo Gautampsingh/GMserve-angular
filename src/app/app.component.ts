@@ -8,7 +8,7 @@ declare var $: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'GMserve';
+  title = 'Goutam singh';
 
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('en');

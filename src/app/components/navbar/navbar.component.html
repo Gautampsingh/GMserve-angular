@@ -1,35 +1,35 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">GMserve</a>
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">Goutam singh</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            {{ 'HOME.MENU' | translate }}
+            Menu
             <i class="fa fa-bars"></i>
           </button>
            
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('services')">{{ 'HOME.SERVICES' | translate }}</a>
+                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('services')">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('portfolio')">{{ 'HOME.PROJECTS' | translate }}</a>
+                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('portfolio')">PROJECTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('about')">{{ 'HOME.ABOUTME' | translate }}</a>
+                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('about')">ABOUT ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('team')">{{ 'HOME.TECHNOLOGY' | translate }}</a>
+                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('team')">TECHNOLOGIES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('contact')">{{ 'HOME.CONTACT' | translate }}</a>
+                <a class="nav-link js-scroll-trigger" href="javascript:void(0)" (click)="scroll('contact')">CONTACT</a>
               </li>
             </ul>
           </div>
 
-          <select #langSelect (change)="translate.use(langSelect.value)">
+          <!-- <select #langSelect (change)="translate.use(langSelect.value)">
             <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
-          </select>
+          </select> -->
           
         </div>
       </nav>

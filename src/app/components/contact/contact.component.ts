@@ -19,7 +19,7 @@ export class ContactComponent implements OnInit {
         + '\nEmail: ' + document.getElementById('email').value
         + '\nMessage: ' + document.getElementById('message').value;
   
-    var link = "mailto:goutamsingh@gmserve.com"
+    var link = "mailto:gs@goutam.singh.com"
         //+ "?cc=myCCaddress@example.com"
         //+ "&subject=" + escape("This is my subject test")
         + "&body=" + escape(text);
